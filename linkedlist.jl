@@ -31,5 +31,5 @@ t = Node(4, nothing)
 
 addNode2End!(ll, n)
 addNode2End!(ll, m)
-makeNodeHead(ll, t)
+makeNodeHead!(ll, t)
 print(ll)
