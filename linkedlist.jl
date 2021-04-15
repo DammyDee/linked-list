@@ -19,7 +19,8 @@ function addNode2End!(l :: Linkedlist, m :: Node) # Define function to add a Nod
 end
 
 function makeNodeHead!(l :: Linkedlist, m :: Node)
-    m.next = l.n;
+    a = l.n
+    m.next = a;
     l.n = m
 end
     
